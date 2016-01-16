@@ -1,5 +1,5 @@
 ###########  LANGUAGE MODEL CREATION STAND ALONE CODE V2  #####################
-## This code will run the in RStudion console and create 
+## This code will run the in RStudio console and create 
 ## the matrices for the language model in a stand alone
 ##  fashion and these matrices will be loaded separately for the Shiny app
 ##  that will do the next word prediction
