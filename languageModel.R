@@ -465,26 +465,26 @@ tdm <- TermDocumentMatrix(case, control = list(tokenize = BigramTokenizer))
 m2 <- as.matrix(tdm)
 r2 <- rownames(m2)
 write.matrix(m2,file="~/predictv2/data/m2")
-write.matrix(r2,file="~/predictv2/data/r2")
+writeLines(r2,con="~/predictv2/data/r2")
 
 BigramTokenizer <- function(x) NGramTokenizer(x, Weka_control(min = 3, max = 3)) # create n-grams
 tdm <- TermDocumentMatrix(case, control = list(tokenize = BigramTokenizer))
 m3 <- as.matrix(tdm)
 r3 <- rownames(m3)
 write.matrix(m3,file="~/predictv2/data/m3")
-write.matrix(r3,file="~/predictv2/data/r3")
+writeLines(r3,con="~/predictv2/data/r3")
 
 BigramTokenizer <- function(x) NGramTokenizer(x, Weka_control(min = 4, max = 4)) # create n-grams
 tdm <- TermDocumentMatrix(case, control = list(tokenize = BigramTokenizer))
 m4 <- as.matrix(tdm)
 r4 <- rownames(m4)
 write.matrix(m4,file="~/predictv2/data/m4")
-write.matrix(r4,file="~/predictv2/data/r4")
+writeLines(r4,con="~/predictv2/data/r4")
 
 BigramTokenizer <- function(x) NGramTokenizer(x, Weka_control(min = 5, max = 5)) # create n-grams
 tdm <- TermDocumentMatrix(case, control = list(tokenize = BigramTokenizer))
 m5 <- as.matrix(tdm)
 r5 <- rownames(m5)
 write.matrix(m5,file="~/predictv2/data/m5")
-write.matrix(r5,file="~/predictv2/data/r5")
+writeLines(r5,con="~/predictv2/data/r5")
 
