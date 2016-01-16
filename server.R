@@ -295,9 +295,9 @@ if (length(a) == 0) {predict <- "Please Enter Input"}
 			output$predict3 <- renderText({paste0("2. ",choice2,"  3.",choice3,"  4.",choice4,"  5.",choice5)})
 			#print(paste0("5. ",choice5," ",totals$m2[5]))
 		}
-#predict
+
 	}
-	# else {output$predict1 <- renderText( "I'm sorry, no predictions avilable for your input Please try again.")}
+
 }}  
 predict
 }
